@@ -9,6 +9,7 @@ Jython can be downloaded at https://www.jython.org/download.html
 Go into Burp Settings
 
 ![Burp Settings](https://github.com/TheSwagLord69/Burp-Suite-Custom-Extension/assets/18691441/f56c4927-efbb-4f52-bb0f-0dd4d493d753)
+![Burp Settings](https://github.com/TheSwagLord69/Burp-Suite-Custom-Extension/Images/Burp Settings.png)
 
 Select Jython jar file
 
