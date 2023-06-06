@@ -1,10 +1,17 @@
-# Burp-Suite-Custom-Extension
+# Burp Suite Custom Extensions
 Custom Extensions for Burp Suite
 
-# Python-based Extensions
+## Useful Documentation
+https://portswigger.net/burp/extender/api/index.html
+https://portswigger.net/burp/extender/api/burp/iburpextendercallbacks.html
+https://portswigger.net/burp/extender/api/burp/iextensionhelpers.html
 
-## Setting up Jython
+## Python-based Extensions
+
+### Setting up Jython
 Jython can be downloaded at https://www.jython.org/download.html
+
+![Jython Download](https://github.com/TheSwagLord69/Burp-Suite-Custom-Extension/blob/d0fe7db835b615ad160c3888a975269afbab4e8a/Images/Jython%20Download.png)
 
 Go into Burp Settings
 
@@ -13,3 +20,6 @@ Go into Burp Settings
 Select Jython jar file
 
 ![Jython Path](https://github.com/TheSwagLord69/Burp-Suite-Custom-Extension/blob/69b00b9a06e57a0b34281a1069e886cabd3266c4/Images/Jython%20Path.png)
+
+### Loadding a custom extension into Burp Suite
+
