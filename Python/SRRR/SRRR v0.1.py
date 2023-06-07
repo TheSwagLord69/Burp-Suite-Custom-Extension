@@ -130,15 +130,14 @@ class BurpExtender(IBurpExtender, IHttpListener, ITab):
                     
                     # Search XML for any "interesting" artifacts
                     interesting_list = []
-                    regex = r"<d:Value>.*?<\/d:Value>"
+                    regex = "(?:<d:Value>)(.*?)(?:<\/d:Value>)"
                     results = re.findall(regex, response_data, re.DOTALL | re.UNICODE)
+                    
                     if results is not None:
                         for i in results:
-                            i = i.split("<d:Value>")[1]
-                            i = i.split("</d:Value>")[0]
                             i = i.encode('utf-8', errors='ignore').decode('utf-8')
                             interesting_list.append(i)
-                    
+                            
                     # Update log table
                     self.stdout.println("[*]\t" + str(datetime.now().strftime('%Y-%m-%d %H:%M:%S')) + "\tAdding " + str(current_url) + " to log table.") # debug
                     log_entry = [timestamp, current_url, status_code, method, response_data, response_headers_list, interesting_list]
