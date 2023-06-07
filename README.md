@@ -30,11 +30,6 @@ These custom extensions leverage the extensibility of Burp Suite and provide add
 
 1. SRRR: Sends Request(s), and has the ability to Regex the Responses
 
-## Useful Documentation
-https://portswigger.net/burp/extender/api/index.html
-https://portswigger.net/burp/extender/api/burp/iburpextendercallbacks.html
-https://portswigger.net/burp/extender/api/burp/iextensionhelpers.html
-
 ## Environment Setup
 
 ### Python-based Extensions
@@ -73,3 +68,9 @@ If the burp extension has no errors, it should load successfully.
 Navigating back to the Extensions Tab, we can see that it has loaded into Burp Suite.
 
 ![Custom Extension in Burp Suite](https://github.com/TheSwagLord69/Burp-Suite-Custom-Extension/blob/70528818b614c2d01e09dffe015927825b53f4ec/Images/Burp%20Extension%20is%20loaded.png)
+
+## Useful Documentation
+
+https://portswigger.net/burp/extender/api/index.html
+https://portswigger.net/burp/extender/api/burp/iburpextendercallbacks.html
+https://portswigger.net/burp/extender/api/burp/iextensionhelpers.html
