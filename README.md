@@ -69,8 +69,10 @@ Navigating back to the Extensions Tab, we can see that it has loaded into Burp S
 
 ![Custom Extension in Burp Suite](https://github.com/TheSwagLord69/Burp-Suite-Custom-Extension/blob/70528818b614c2d01e09dffe015927825b53f4ec/Images/Burp%20Extension%20is%20loaded.png)
 
-## Useful Documentation
+## Useful Resources
 
+https://github.com/PortSwigger
 https://portswigger.net/burp/extender/api/index.html
 https://portswigger.net/burp/extender/api/burp/iburpextendercallbacks.html
 https://portswigger.net/burp/extender/api/burp/iextensionhelpers.html
+https://www.schellman.com/blog/cybersecurity/how-to-write-a-burp-extension
