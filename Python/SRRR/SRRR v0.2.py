@@ -69,7 +69,7 @@ class BurpExtender(IBurpExtender, IHttpListener, ITab):
         
         # Add the main panel and second panel to the tabbed pane
         self.tabbedPane.addTab("Main", mainPanel)
-        self.tabbedPane.addTab("Config", secondPanel)
+        self.tabbedPane.addTab("Regex", secondPanel)
         
         # Create the panel for the upper half of the components in the main tab
         upperPanel = JPanel()
