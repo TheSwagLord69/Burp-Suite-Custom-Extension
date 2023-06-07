@@ -29,3 +29,15 @@ This custom Burp Extension written in python allows for:
 - Sending with more than 10 URLs in the URL Field at once may freeze Burp Suite.
 - Burp Logger will not detect the requests sent and responses recieved as urllib is used
 - Request and response logs are not persistent, even if saved as a project.
+
+## Usage
+
+Navigate to the "SRRR" tab.
+
+![SRRR v0.1 GUI](https://github.com/TheSwagLord69/Burp-Suite-Custom-Extension/blob/18fefb8bd7b463fb1cf8814dde9dab6d86505794/Images/SRRR%20GUI.png)
+
+Input URLs to be requested, and click "Send Request"
+Responses will appear in the log table below.
+As the space is limited, items in log table may selected and copied out for your own further analysis.
+
+![SRRR Request and Response](https://github.com/TheSwagLord69/Burp-Suite-Custom-Extension/blob/18fefb8bd7b463fb1cf8814dde9dab6d86505794/Images/SRRR%20Usage.png)
