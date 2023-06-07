@@ -32,6 +32,8 @@ This custom Burp Extension written in python allows for:
 
 ## Usage
 
+### Sending Requests and Receiving Responses
+
 Navigate to the "SRRR" tab.
 
 ![SRRR v0.1 GUI](https://github.com/TheSwagLord69/Burp-Suite-Custom-Extension/blob/18fefb8bd7b463fb1cf8814dde9dab6d86505794/Images/SRRR%20GUI.png)
@@ -41,6 +43,8 @@ Responses will appear in the log table below.
 As the space is limited, items in log table may selected and copied out for your own further analysis.
 
 ![SRRR Request and Response](https://github.com/TheSwagLord69/Burp-Suite-Custom-Extension/blob/18fefb8bd7b463fb1cf8814dde9dab6d86505794/Images/SRRR%20Usage.png)
+
+### Console Output
 
 Navigate back to the Extensions tab to view the debug output or errors (if any)
 
