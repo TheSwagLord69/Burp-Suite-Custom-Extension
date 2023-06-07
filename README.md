@@ -21,7 +21,9 @@ By using these custom extensions, you acknowledge and accept the above disclaime
 ## Introduction
 
 Burp Suite is widely used by security professionals and penetration testers for discovering vulnerabilities in web applications. 
+
 While off the shelf, it offers a comprehensive set of features out of the box, this repository aims to extend its capabilities even further with custom extensions. 
+
 These custom extensions leverage the extensibility of Burp Suite and provide additional functionality tailored to specific security testing scenarios. 
 
 ## Extension Descriptions
