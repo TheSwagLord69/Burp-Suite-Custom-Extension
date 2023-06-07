@@ -130,7 +130,7 @@ class BurpExtender(IBurpExtender, IHttpListener, ITab):
                     
                     # Search XML for any "interesting" artifacts
                     interesting_list = []
-                    regex = "(?:<d:Value>)(.*?)(?:<\/d:Value>)"
+                    regex = r"(?:<d:Value>)(.*?)(?:<\/d:Value>)"
                     results = re.findall(regex, response_data, re.DOTALL | re.UNICODE)
                     
                     if results is not None:
