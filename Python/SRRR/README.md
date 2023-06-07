@@ -41,3 +41,7 @@ Responses will appear in the log table below.
 As the space is limited, items in log table may selected and copied out for your own further analysis.
 
 ![SRRR Request and Response](https://github.com/TheSwagLord69/Burp-Suite-Custom-Extension/blob/18fefb8bd7b463fb1cf8814dde9dab6d86505794/Images/SRRR%20Usage.png)
+
+Navigate back to the Extensions tab to view the debug output or errors (if any)
+
+![SRRR Console Output](https://github.com/TheSwagLord69/Burp-Suite-Custom-Extension/blob/4aa425187c3dc1e18ae7a46cabb58e68e91b5fbe/Images/SRRR%20Debug%20Messages.png)
