@@ -28,7 +28,7 @@ These custom extensions leverage the extensibility of Burp Suite and provide add
 
 ## Extension Descriptions
 
-1. SRRR: Sends Request(s), and has the ability to Regex the Responses
+1. [SRRR](Python/SRRR): Sends Request(s), and has the ability to Regex the Responses
 
 ## Environment Setup
 
