@@ -23,3 +23,22 @@ Select Jython jar file
 
 ### Loadding a custom extension into Burp Suite
 
+Navigate to "Extensions" tab. Under "Burp extensions", click "Add"
+
+![Extensions Tab](https://github.com/TheSwagLord69/Burp-Suite-Custom-Extension/blob/70528818b614c2d01e09dffe015927825b53f4ec/Images/Burp%20Add%20Extension.png)
+
+Choose the appropriate extension type and select the burp extension file to be loaded. 
+
+![Load Extension](https://github.com/TheSwagLord69/Burp-Suite-Custom-Extension/blob/70528818b614c2d01e09dffe015927825b53f4ec/Images/Burp%20Load%20Extension.png)
+
+Example of loading a custom burp extension. Click "Next".
+
+![Selected File](https://github.com/TheSwagLord69/Burp-Suite-Custom-Extension/blob/70528818b614c2d01e09dffe015927825b53f4ec/Images/Burp%20Load%20Extension%20Selected%20File.png)
+
+If the burp extension has no errors, it should load successfully.
+
+![Loaded Sucessfully](https://github.com/TheSwagLord69/Burp-Suite-Custom-Extension/blob/70528818b614c2d01e09dffe015927825b53f4ec/Images/Burp%20Load%20Extension%20Success.png)
+
+Navigating back to the Extensions Tab, we can see that it has loaded into Burp Suite.
+
+![Custom Extension in Burp Suite](https://github.com/TheSwagLord69/Burp-Suite-Custom-Extension/blob/70528818b614c2d01e09dffe015927825b53f4ec/Images/Burp%20Extension%20is%20loaded.png)
