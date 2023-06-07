@@ -3,7 +3,7 @@
 | Version  | Description |
 | ------------- | ------------- |
 | 0.1  | Initial Release  |
-| 0.2  | Added Main and Config tabs <br/> Added Regex string to be changed on the fly in Config tab |
+| 0.2  | Added Main and Regex tabs <br/> Added Regex string to be changed on the fly in Regex tab |
         
 ## Requirements
 
