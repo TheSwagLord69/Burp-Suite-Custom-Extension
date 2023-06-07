@@ -5,6 +5,18 @@
 - Burp Suite
 - Jython 2.7.3
 
+## Libraries
+
+- burp
+- javax.swing
+- javax.swing.table
+- java.awt
+- java.io
+- java.lang
+- datetime
+- urllib
+- re
+
 ## Description
 
 This custom Burp Extension written in python allows for:
